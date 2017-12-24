@@ -1,1 +1,82 @@
-ignore_data/
+# https://github.com/github/gitignore  # offical .gitignore
+.*
+*.~
+*.class
+*.py[co]
+*.swp
+*.log
+build/
+dist/
+logs/
+.venv/
+.idea/
+.tox/
+.coverage
+covhtml/
+coverage.xml
+nosetests.xml
+tmp*
+
+# for CDN
+cdnjs.cloudflare.com/
+https:/
+
+# for Python
+__pycache__
+checkpoint
+
+# for: xelatex
+*.bbl
+*.blg
+*.pdf
+*.dvi
+*.aux
+*.log
+*.lot
+*.nav
+*.snm
+*.toc
+*.out
+*.bcf
+*.lof
+*.mintedcmd
+*.run.xml
+*.gz
+auto/
+*.fdb_latexmk
+*.fls
+# for acutex
+prv_*
+_region_*
+_minted-*
+
+# Node, Express, Scss, Jade, Pug, Hexo, Next
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+bower_components/
+.deploy*/
+.sass-cache/  # sass 运行以后会出来
+bourbon/  # sass mixin 集合
+
+# for Emacs
+custom.el
+*.elc
+*Sass*
+*Python*
+*Coffee*
+
+# *.a
+# !lib.a        # 忽略 .a 文件, 但否定忽略 lib.a
+# /TODO         # 仅在当前目录下忽略 TODO 文件， 但不包括子目录下的 subdir/TODO
+# build/        # 忽略 build/ 文件夹下的所有文件
+# doc/*.txt     # 忽略 doc/notes.txt, 不包括 doc/server/arch.txt
+# doc/**/*.pdf  # 忽略所有的 .pdf 文件 在 doc/ directory 下的
+
+# exclude everything except directory foo/bar
+# /*
+# !/foo
+# /foo/*
+# !/foo/bar
